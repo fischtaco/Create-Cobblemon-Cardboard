@@ -1,0 +1,1635 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "weekly_quests"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:clock"
+	id: "521CDC03D70D319E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "5D2BDC119206AC71"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "7AA66AD054F4BF88"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Quests reset weekly on Wednesday in the United States. Some quests will be harder to complete than others; this is intended. If quests are still on the previous week, please ask an operator to change them up."]
+			icon: "create:clipboard"
+			id: "527DFF1C37092EB1"
+			subtitle: "Quests reset weekly."
+			tasks: [{
+				id: "67CAD27223D7FE13"
+				type: "checkmark"
+			}]
+			title: "Information"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_log"
+			id: "6B88896DB5E80F08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0377AD6EE94921F0"
+				table_id: 2999228224737954907L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				icon: "minecraft:oak_log"
+				id: "6463D458ADAB1997"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs_that_burn)"
+					}
+				}
+				title: "128 Logs"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			icon: "cobblemon:premier_ball"
+			id: "71AA67D0CB53352A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B9184338E2EC300"
+				table_id: 1656014881283549604L
+				type: "choice"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "4C81D6813C1EE960"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Normal types"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			id: "368B2D106B7B2461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1159251EB288E726"
+				table_id: 1999587161310345774L
+				type: "random"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:luxury_ball"
+				id: "3E333F1DA5BEC5F3"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: true
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "0C586F4B300EB129"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29A0EB55328A13B5"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				action: "evolve"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:friend_ball"
+				id: "3367F58178EBC3E5"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "6F21C9B84A1DF08A"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "10607AEF40B99F05"
+				item: "cobblemon:blue_apricorn"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			id: "6094C6F2AA19ECBF"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "56E53BBADC78DD4B"
+				item: "cobblemon:oran_berry"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			description: ["The Vanilla one."]
+			id: "55F964018F73C6EF"
+			rewards: [{
+				id: "64B919E1849E4496"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk"
+				id: "2202E17F09E420E3"
+				title: "Visit Biome: Deep Dark"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "7ECAEDFBC8D9EF46"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3FE34739CB19AD7A"
+				item: "cobblemon:yellow_apricorn"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			icon: "cobblemon:pink_apricorn"
+			id: "5A85CB290C3EF63B"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1BD364E63D4D080F"
+				item: "cobblemon:pink_apricorn"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "015F77E1BBAA480A"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "636DEC45B7BCF2F6"
+				item: "cobblemon:black_apricorn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "033EC864F7855C3D"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2B17A7F5DDA8C0FF"
+				item: "cobblemon:green_apricorn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			id: "074C0CB4930115F7"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "308A54FFE7687F35"
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			id: "554785C28116FD9D"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3DDECE12A7709759"
+				item: "cobblemon:white_apricorn"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			id: "28D21E89A13C4BDA"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "029BC4481DC71425"
+				item: "cobblemon:cheri_berry"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			id: "23DCA88AA08286D0"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "5D29D4D4B0444367"
+				item: "cobblemon:chesto_berry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			id: "669D4784751E7798"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "73798E73C3D24DEF"
+				item: "cobblemon:rawst_berry"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "03C3EAE7D7A96160"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "6E6359F9AF89050E"
+				item: "cobblemon:pecha_berry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			id: "2A3D54F8D430FE3A"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "53EFA100271AB542"
+				item: "cobblemon:aspear_berry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			id: "415C546BA06AC26A"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "6AB49F22529C7F50"
+				item: "cobblemon:persim_berry"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "5286AC27D6D4DAF1"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "0D710B9D46E31AC8"
+				item: "cobblemon:leppa_berry"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "334D88A2CCE8691C"
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "114826B36079A6E6"
+				item: "cobblemon:lum_berry"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			icon: "cobblemon:poke_ball"
+			id: "7BE8E66282468286"
+			rewards: [{
+				id: "40E4D04BA3247A87"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "58FAD53940BEA7AC"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Fire types"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "cobblemon:azure_ball"
+			id: "646E930C5D6DE18A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08DC3188FAE292E3"
+				table_id: 1656014881283549604L
+				type: "loot"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "349F01DE8BA81BAD"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Water types"
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			icon: "cobblemon:verdant_ball"
+			id: "41BE5A465EB41D7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "121C66ABB6693477"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "4AF2C2C83EDAA342"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Grass types"
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			icon: "cobblemon:citrine_ball"
+			id: "670E7F1E32682054"
+			rewards: [{
+				id: "1BB780FA0593818F"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "12CAADB8245D3017"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Electric types"
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			icon: "cobblemon:park_ball"
+			id: "6194A957CB4BD215"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78470ED7DC413551"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "02EBB379106DE8C6"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "poison"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Poison types"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			icon: "cobblemon:safari_ball"
+			id: "0564327E2B63714F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0477FA7356D4CC0E"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "23D1408CA8092DF1"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ground"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Ground types"
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			icon: "cobblemon:quick_ball"
+			id: "4173CB1A57696B05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFBFE0B44CAAB41"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "0C8AE09FFB7270DF"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Flying types"
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "cobblemon:heal_ball"
+			id: "57B4897942632BDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34A25165B20C636D"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "78DD5F142B4318E5"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Psychic types"
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			icon: "cobblemon:net_ball"
+			id: "02855A617E8243AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D6C247534269112"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "0DC24A340D42B6D0"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Bug types"
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			icon: "cobblemon:dream_ball"
+			id: "1517BCF95DEDBD47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE6F7094EB25A81"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "35EE48826B627AFE"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Ghost types"
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			icon: "cobblemon:dusk_ball"
+			id: "50C4A9AF08D363DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E72BF229947DD3E"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "528BFE9D895C6813"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Dark types"
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			icon: "cobblemon:ancient_citrine_ball"
+			id: "2D5838591E11D85C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A91F4FD35474A07"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "19B886C766340B1C"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Rock Types"
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			icon: "cobblemon:heavy_ball"
+			id: "7D10FB62CD21D7F2"
+			rewards: [{
+				id: "7421166A6B3C0A5E"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "7599ADBB4497F897"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "steel"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Steel types"
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			icon: "cobblemon:moon_ball"
+			id: "48E50B6C92EC47A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "227BCCEBF64A763C"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "2A313F9379DA60CD"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Fairy types"
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			icon: "cobblemon:sport_ball"
+			id: "3DC4BA578089641E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52451B5F04C1449C"
+				table_id: 1656014881283549604L
+				type: "choice"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "6384C6B48C074301"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fighting"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Fighting types"
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			icon: "cobblemon:timer_ball"
+			id: "05573F5C8A5E7519"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "632D3FB3F05ECC44"
+				table_id: 6129662726908203167L
+				type: "random"
+			}]
+			tasks: [{
+				action: "catch,defeat"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:timer_ball"
+				id: "140390ADCB003771"
+				poke_ball_used: ""
+				pokemon: "cobblemon:articuno,cobblemon:zapdos,cobblemon:moltres,cobblemon:mewtwo,cobblemon:raikou,cobblemon:entei,cobblemon:suicune,cobblemon:lugia,cobblemon:hooh,cobblemon:latias,cobblemon:latios,cobblemon:uxie,cobblemon:mesprit,cobblemon:azelf,cobblemon:dialga,cobblemon:palkia,cobblemon:giratina,cobblemon:regigigas,cobblemon:cresselia,cobblemon:tornadus,cobblemon:thundurus,cobblemon:landorus,cobblemon:reshiram,cobblemon:zekrom,cobblemon:kyurem,cobblemon:xerneas,cobblemon:yveltal,cobblemon:tapukoko,cobblemon:tapulele,cobblemon:tapubulu,cobblemon:tapufini,cobblemon:cosmog,cobblemon:cosmoem,cobblemon:solgaleo,cobblemon:lunala,cobblemon:necrozma,cobblemon:eternatus,cobblemon:kubfu,cobblemon:urshifu,cobblemon:koraidon,cobblemon:miraidon,cobblemon:ogerpon,cobblemon:regice,cobblemon:regidrago,cobblemon:regieleki,cobblemon:regirock,cobblemon:registeel"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch or Defeat a legendary"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Catch or Defeat a Legendary"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			icon: "minecraft:stone"
+			id: "093A951A8F859CE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62C774758A7A70BA"
+				table_id: 2999228224737954907L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				icon: "minecraft:stone"
+				id: "44EDBD59C7244240"
+				item: "minecraft:stone"
+				title: "128 Stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			description: ["Terralith Biome."]
+			id: "3067D77934DEC594"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A02D924DC224A25"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:yellowstone"
+				icon: "minecraft:yellow_terracotta"
+				id: "4AA2899F785025A1"
+				title: "Visit Biome: Yellowstone"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			description: ["Terralith Biome."]
+			id: "098ED5EAEB082E68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "480DE693C38DD37B"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:amethyst_rainforest"
+				icon: "minecraft:amethyst_block"
+				id: "66A83A6A043023CE"
+				title: "Visit Biome: Amethyst Rainforest"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			description: ["Terralith Biome."]
+			id: "113ABF9AB2A1F55A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19F83B7E20BB6D9C"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:lush_desert"
+				icon: "minecraft:sand"
+				id: "7EABC541CFFD9146"
+				title: "Visit Biome: Lush Desert"
+				type: "biome"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			description: ["Terralith Biome."]
+			id: "66EC775ED5620DD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B83887E080D07D2"
+				table_id: 1656014881283549604L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:white_mesa"
+				icon: "minecraft:white_terracotta"
+				id: "456ABE34072BAF50"
+				title: "Visit Biome: White Mesa"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			description: ["Terralith Biome."]
+			id: "461E85F481A1AF9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F5110384786DBBE"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:volcanic_peaks"
+				icon: "minecraft:lava_bucket"
+				id: "5D7F148771ABCF9D"
+				title: "Visit Biome: Volcanic Peaks"
+				type: "biome"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			description: ["The Vanilla one."]
+			id: "0D7CB4D25B81519B"
+			rewards: [{
+				id: "7F8A1FBE46E98765"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:frozen_peaks"
+				icon: "minecraft:packed_ice"
+				id: "29D956B8CF928DE8"
+				title: "Visit Biome: Frozen Peaks"
+				type: "biome"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			description: ["The Vanilla one."]
+			id: "69721EFABCAC465A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B1A63B909F38A95"
+				table_id: 2999228224737954907L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: "minecraft:cherry_leaves"
+				id: "0A57609AB373AE91"
+				title: "Visit Biome: Cherry Grove"
+				type: "biome"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			description: ["The Vanilla one."]
+			id: "69336F6C3D5D8EA6"
+			rewards: [{
+				id: "48FD42446DD07BB8"
+				table_id: 2999228224737954907L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:savanna_plateau"
+				icon: "minecraft:acacia_log"
+				id: "5CCCB47F7C0D7358"
+				title: "Visit Biome: Savanna Plateau"
+				type: "biome"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			description: ["The Vanilla one."]
+			id: "55BE094820A09F9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB1D7AF3C4EA357"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				icon: "minecraft:dark_oak_log"
+				id: "63F864633BE672AE"
+				title: "Visit Biome: Dark Forest"
+				type: "biome"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_ingot"
+			id: "246D2072F0DE0E38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "190F723700B1A5F0"
+				table_id: 2999228224737954907L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				icon: "minecraft:iron_ingot"
+				id: "2706FD7CD02E0511"
+				item: "minecraft:iron_ingot"
+				title: "32 Iron Ingots"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			icon: "minecraft:gold_ingot"
+			id: "0EDDE9BBBF019AF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73BFF5A34B8BA1F2"
+				table_id: 1656014881283549604L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				icon: "minecraft:gold_ingot"
+				id: "043E7B04090BA57C"
+				item: "minecraft:gold_ingot"
+				title: "32 Gold Ingots"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "3898566C52770266"
+			tasks: [{
+				icon: { Count: 2, id: "create:cuckoo_clock" }
+				id: "74AA47A1E9573254"
+				title: "Week Two"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "3500872D7A0E751D"
+			rewards: [{
+				id: "141066495A874535"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			tasks: [{
+				icon: { Count: 3, id: "create:cuckoo_clock" }
+				id: "28786B530A7CE0B3"
+				title: "Week Three"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "409E201712CEC07C"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "70BB536BCED542B5"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "6D79F7476E3F9C68"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "3141A12A5C59C5A2"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "1E9A67F5B6A099B1"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "0E9B4432E69EE648"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "00E9CA5ED03C38F4"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "32DA7BBCB7105C52"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "454B69CF69FCCB05"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "1732EADDF187E307"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "309541AEB9FFB9CC"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "62C32D8E32EBD5D0"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "657B90CB741E8E59"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "3FE8997071A31FDA"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "45E3628D87CA879D"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "178229545B9E063B"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "09164FF9FA4E5B07"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "45735575A24AA9EF"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "478D2DE948D2F5F3"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "16E3B02D4BEED7B7"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "4A1876DC995BB127"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "3F80871859438D14"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "3671EA0C9935B985"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "7CE528617CC737E0"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["527DFF1C37092EB1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clock"
+			id: "586C357474F3E096"
+			tasks: [{
+				icon: { Count: 16, id: "create:cuckoo_clock" }
+				id: "5CCEC6E11B71A916"
+				title: "Week One"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "cobblemon:timer_ball"
+			id: "0F35F5E0105C0991"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37D80BB3FC151DA2"
+				table_id: 6129662726908203167L
+				type: "loot"
+			}]
+			tasks: [{
+				action: "catch,defeat"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:timer_ball"
+				id: "6DBC72038DDAF03B"
+				poke_ball_used: ""
+				pokemon: "cobblemon:articuno,cobblemon:zapdos,cobblemon:moltres,cobblemon:mewtwo,cobblemon:raikou,cobblemon:entei,cobblemon:suicune,cobblemon:lugia,cobblemon:hooh,cobblemon:latias,cobblemon:latios,cobblemon:uxie,cobblemon:mesprit,cobblemon:azelf,cobblemon:dialga,cobblemon:palkia,cobblemon:giratina,cobblemon:regigigas,cobblemon:cresselia,cobblemon:tornadus,cobblemon:thundurus,cobblemon:landorus,cobblemon:reshiram,cobblemon:zekrom,cobblemon:kyurem,cobblemon:xerneas,cobblemon:yveltal,cobblemon:tapukoko,cobblemon:tapulele,cobblemon:tapubulu,cobblemon:tapufini,cobblemon:cosmog,cobblemon:cosmoem,cobblemon:solgaleo,cobblemon:lunala,cobblemon:necrozma,cobblemon:eternatus,cobblemon:kubfu,cobblemon:urshifu,cobblemon:koraidon,cobblemon:miraidon,cobblemon:ogerpon,cobblemon:regice,cobblemon:regidrago,cobblemon:regieleki,cobblemon:regirock,cobblemon:registeel"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch or Defeat a legendary"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Catch or Defeat a Legendary"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			id: "04734ECCF6EA9911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D6D34B03D6E1214"
+				table_id: 1999587161310345774L
+				type: "loot"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:luxury_ball"
+				id: "32C895E88C6C3223"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: true
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "0C83AE6A7B5DC0CA"
+			tasks: [{
+				action: "evolve"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:friend_ball"
+				id: "30C3B7D4B8D9C136"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			description: ["The Vanilla one."]
+			id: "0A7D09457196C84F"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk"
+				id: "0FBE91F07DB53FE8"
+				title: "Visit Biome: Deep Dark"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_log"
+			id: "07792DB3009FAE94"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				icon: "minecraft:oak_log"
+				id: "6659E9C132299127"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs_that_burn)"
+					}
+				}
+				title: "128 Logs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			icon: "cobblemon:premier_ball"
+			id: "771BAB1860AFF3C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FD11E7494C555DC"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "7B73EA7DA1F6611E"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Defeat Normal types"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			description: ["Colony or Automation Recommended."]
+			icon: "farmersdelight:shepherds_pie_block"
+			id: "449A62C9E50D46F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "717B5BB82BB3BAF0"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				icon: "farmersdelight:shepherds_pie_block"
+				id: "59177E4CD957F99A"
+				item: "farmersdelight:shepherds_pie_block"
+				title: "8 Shepherds Pie"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			description: ["Colony or Automation Recommended."]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "6AFC56DF6DD92DDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4957D7DC2F90E054"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				icon: "farmersdelight:roast_chicken_block"
+				id: "16E0B8075A6B85DB"
+				item: "farmersdelight:roast_chicken_block"
+				title: "8 Roast Chickens."
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			description: ["Colony or Automation Recommended."]
+			icon: "farmersdelight:honey_glazed_ham_block"
+			id: "4B7563D7D6061A78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12EF8BDF9B8796F5"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				icon: "farmersdelight:honey_glazed_ham_block"
+				id: "0E737B9C558067E8"
+				item: "farmersdelight:honey_glazed_ham_block"
+				title: "8 Honey Glazed Hams"
+				type: "item"
+			}]
+			title: "8 Honey Glazed Hams"
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			description: ["Colony or Automation Recommended."]
+			icon: "farmersdelight:stuffed_pumpkin_block"
+			id: "7131CBECE75334FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DF238CF5C336E71"
+				table_id: 285928200731233428L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				icon: "farmersdelight:stuffed_pumpkin_block"
+				id: "10B17E819C1B194A"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				title: "8 Stuffed Pumpkins"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+	]
+	title: "&3Weekly Quests"
+}

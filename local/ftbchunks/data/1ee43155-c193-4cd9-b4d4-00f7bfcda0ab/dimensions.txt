@@ -1,0 +1,4 @@
+minecraft:the_nether
+minecraft:overworld
+deeperdarker:otherside
+minecraft:the_end

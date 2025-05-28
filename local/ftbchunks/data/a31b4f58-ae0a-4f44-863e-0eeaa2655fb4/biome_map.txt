@@ -1,0 +1,10 @@
+#460 minecraft:cherry_grove
+#5E2 terralith:forested_highlands
+#508 minecraft:frozen_peaks
+#1AC terralith:gravel_desert
+#51E minecraft:jagged_peaks
+#2D6 minecraft:meadow
+#41A terralith:rocky_mountains
+#415 terralith:snowy_cherry_grove
+#524 minecraft:snowy_slopes
+#597 terralith:temperate_highlands

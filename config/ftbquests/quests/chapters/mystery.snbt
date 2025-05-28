@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystery"
+	group: "37122FCD3AD577ED"
+	icon: "cobblemon:never_melt_ice"
+	id: "3575A42FEB7E25FD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3EFBA91A1BB53424"
+				"7E85F6C94CB49DEE"
+			]
+			description: ["OPEN A DOOR. AN ETERNAL POKEMON WAITS."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: "cobblemon:rock_gem"
+			id: "3B8851CE8A247171"
+			invisible: true
+			rewards: [{
+				icon: "cobblemon:rock_gem"
+				id: "16502AB45AC861B3"
+				item: "cobblemon:rock_gem"
+				title: "Rock Offering"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "2F92353C6933FD97"
+					item: "cobblemon:rock_gem"
+					type: "item"
+				}
+				{
+					id: "470829F1715A24D7"
+					item: "kubejs:essence_of_the_silverfish_t1"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0B465D3E41989739"
+					item: "create:experience_block"
+					type: "item"
+				}
+			]
+			title: "Example of Rock Offering"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3E7DCE884734A74A"
+				"7E85F6C94CB49DEE"
+			]
+			description: ["WE FEARED IT. THOSE WITH COURAGE, THOSE WITH HOPE."]
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			icon: "cobblemon:ice_gem"
+			id: "0FDFCF693F9E4C9F"
+			invisible: true
+			rewards: [{
+				icon: "cobblemon:ice_gem"
+				id: "416606AA8B852DE7"
+				item: "cobblemon:ice_gem"
+				title: "Ice Offering"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "48AAC337AC92DADC"
+					item: "cobblemon:ice_gem"
+					type: "item"
+				}
+				{
+					id: "4D20E42953DF318E"
+					item: "kubejs:essence_of_the_snow_golem_t1"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1758E39A48ADFFDC"
+					item: "create:experience_block"
+					type: "item"
+				}
+			]
+			title: "Example of Frigid Offering"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E85F6C94CB49DEE"
+				"7E85F6C94CB49DEE"
+			]
+			description: ["BUT, WE SEALED THE POKEMON AWAY."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: "cobblemon:steel_gem"
+			id: "7B4688A7842FE83F"
+			invisible: true
+			rewards: [{
+				icon: "cobblemon:steel_gem"
+				id: "42811A7D08E258B5"
+				item: "cobblemon:steel_gem"
+				title: "Steel Offering"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "5E34CBDC285360CA"
+					item: "cobblemon:steel_gem"
+					type: "item"
+				}
+				{
+					id: "0EF59A00F1531480"
+					item: "kubejs:essence_of_the_iron_golem_t1"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "282302CA987DB968"
+					item: "create:experience_block"
+					type: "item"
+				}
+			]
+			title: "Example of Steel Offering"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24FAA1D8E518CAB2"
+				"7E85F6C94CB49DEE"
+			]
+			description: ["IN THIS CAVE WE HAVE LIVED."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: "cobblemon:dragon_gem"
+			id: "157636EB1ED80E99"
+			invisible: true
+			rewards: [{
+				icon: "cobblemon:dragon_gem"
+				id: "04C38B5524AC5347"
+				item: "cobblemon:dragon_gem"
+				title: "Dragon Offering"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "6D2192063FD6C814"
+					item: "cobblemon:dragon_gem"
+					type: "item"
+				}
+				{
+					id: "47A6BF95C073FBA2"
+					item: "kubejs:essence_of_the_ender_dragon_t1"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "53580898D56CF487"
+					item: "create:experience_block"
+					type: "item"
+				}
+			]
+			title: "Example of Draconic Offering"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"10FA5F2179C965DB"
+				"7E85F6C94CB49DEE"
+			]
+			description: ["WE OWE ALL TO THE POKEMON."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_text_until_complete: true
+			icon: "cobblemon:electric_gem"
+			id: "3F54F6D7D88CC441"
+			invisible: true
+			rewards: [{
+				icon: "cobblemon:electric_gem"
+				id: "732328C021365F04"
+				item: "cobblemon:electric_gem"
+				title: "Electric Offering"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "46227BF708DC1DEF"
+					item: "cobblemon:electric_gem"
+					type: "item"
+				}
+				{
+					id: "24EFFDCEFFE31AEE"
+					item: "kubejs:essence_of_the_creeper_t1"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "103B46DE687195BD"
+					item: "create:experience_block"
+					type: "item"
+				}
+			]
+			title: "Example of Thunderous Offering"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: ["The concentrated Essence of a Frigid Volleyer, six and ten gems of its kin, and sixty-four Concentrated blocks of souls."]
+			icon: "cobblemon:ice_stone"
+			id: "3E7DCE884734A74A"
+			tasks: [{
+				id: "2077398D8E7417F9"
+				type: "checkmark"
+			}]
+			title: "&kA message"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "cobblemon:master_ball"
+			id: "7E85F6C94CB49DEE"
+			tasks: [
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "6E5CF91610495CAF"
+					poke_ball_used: ""
+					pokemon: "cobblemon:relicanth"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "7ACD52BCC02610C1"
+					poke_ball_used: ""
+					pokemon: "cobblemon:wailord"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			title: "&kCatch the Ancient Cobblemon"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["The concentrated Essence of a Stalwart Defender, six and ten gems of its kin, and sixty-four Concentrated blocks of souls."]
+			icon: "cobblemon:iron_ball"
+			id: "1AB43C58DEE25A98"
+			tasks: [{
+				id: "5EF91DABEF85C603"
+				type: "checkmark"
+			}]
+			title: "&kSteel Offering"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["The concentrated Essence of a Rocky Burrower, six and ten gems of its kin, and sixty-four Concentrated blocks of souls."]
+			icon: "cobblemon:hard_stone"
+			id: "3EFBA91A1BB53424"
+			tasks: [{
+				id: "6C78B74C3FDA8CE6"
+				type: "checkmark"
+			}]
+			title: "&kRocky Offering"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["The concentrated Essence of a Winged Beast, six and ten gems of its kin, and sixty-four Concentrated blocks of souls."]
+			icon: "cobblemon:dragon_fang"
+			id: "24FAA1D8E518CAB2"
+			tasks: [{
+				id: "3D8386BE20C462DC"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&kDraconic Offering"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: ["The concentrated Essence of a Sneaking Thunderclap, six and ten gems of its kin, and sixty-four Concentrated blocks of souls."]
+			icon: "irons_spellbooks:lightning_bottle"
+			id: "10FA5F2179C965DB"
+			tasks: [{
+				id: "5D749616BD150F10"
+				type: "checkmark"
+			}]
+			title: "&kThunderous Offering"
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "&34.5: &kUnknown"
+}

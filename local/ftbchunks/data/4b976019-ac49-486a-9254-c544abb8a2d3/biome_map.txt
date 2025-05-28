@@ -1,0 +1,10 @@
+#5C1 terralith:alpine_highlands
+#00C terralith:cave/infested_caves
+#010 minecraft:forest
+#0E5 terralith:highlands
+#588 terralith:moonlight_valley
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#720 terralith:steppe
+#597 terralith:temperate_highlands

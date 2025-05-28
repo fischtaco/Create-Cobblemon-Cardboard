@@ -1,0 +1,222 @@
+[00:18:47] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[00:18:47] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[00:18:48] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[00:18:48] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[00:18:48] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.core.compatibility.journeymap.JourneymapPlugin
+[00:18:48] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: me.frankv.jmi.JMIJourneyMapPlugin
+[00:18:48] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
+forge: 47.3.0
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.10.3, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=night, showCompass=true, mobDisplay=jm.common.entity_display.icons, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=false, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-378, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=false, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=0.65, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.10.3, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.10.3, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.icons, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=0.64, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.10.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.10.3, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.10.3, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.10.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=Purist, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[00:18:48] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 335.13ms
+[00:19:12] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[00:19:12] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[00:19:12] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 294.88ms
+[00:19:29] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[00:19:33] [Render thread/INFO] [JourneymapClient] World UID is set to: eb4f97f6-dcd6-48c0-93a4-dc9a5c9657b8
+[00:19:53] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[00:19:54] [Render thread/INFO] [WaypointStore] Loaded 35 waypoints from C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\waypoints
+[00:19:54] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld. Memory: 7200MB total, 4322MB free 
+[00:19:54] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[00:20:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/drilbur/drilbur.png
+[00:21:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/scovillain/scovillain.png
+[00:21:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/azurill/azurill.png
+[00:22:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/marill/marill.png
+[00:22:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0548_petilil/petilil_hisui_bias.png
+[00:22:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/skiddo/skiddo.png
+[00:25:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/horse/spectral_steed.png
+[00:25:42] [IO-Worker-72/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [12, 5]
+[00:25:43] [IO-Worker-70/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [3, 5]
+[00:25:55] [IO-Worker-72/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [27, 4]
+[00:37:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/yungoos/yungoos.png
+[00:38:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/gumshoos/gumshoos.png
+[00:38:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/sewaddle/sewaddle.png
+[00:39:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/rockruff/rockruff.png
+[00:45:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/litleo/litleo.png
+[00:50:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/capsakid/capsakid.png
+[00:54:19] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[00:54:52] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 51.8967 (Warning limit reached)
+[00:54:52] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:      820.7ms, Total:          5 sec, Count:   711455, Canceled:        0, Slow:       10
+[00:55:19] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[00:57:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/fomantis/fomantis.png
+[01:00:27] [JM-task-4/WARN] [StatTimer] MapPlayerTask.performTask was slow: 11227.0524 (Warning limit reached)
+[01:00:27] [JM-task-4/WARN] [StatTimer] MapPlayerTask.performTask: Avg:   1677.8ms, Min:     1.78ms, Max:   13726.92ms, Total:       2035 sec, Count:     1213, Canceled:        0, Slow:       10
+[01:00:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/dewpider/dewpider.png
+[01:01:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/skitty/skitty.png
+[01:01:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/hoppip/hoppip.png
+[01:01:29] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[01:02:36] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[01:02:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/ducklett/ducklett.png
+[01:07:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0919_nymble/nymble.png
+[01:08:45] [IO-Worker-362/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [31, 10]
+[01:08:51] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[01:41:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/swanna/swanna.png
+[01:42:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/pawmi/pawmi.png
+[01:53:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/tauros/tauros_blaze.png
+[02:24:19] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[02:32:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0774_minior/minior.png
+[02:49:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/player/slim/alex.png
+[02:50:26] [Render thread/WARN] [JMLogger] minecraft:skins/a7e38f5a4ee20b54f1f7c88f26cad53c83d86c59 doesn't have /entity/ in path, so can't look for /entity_icon/
+[02:50:39] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[02:51:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/tauros/tauros_combat.png
+[02:57:38] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:17:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/araquanid/araquanid.png
+[03:25:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/dunsparce/dunsparce.png
+[03:25:17] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:28:32] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:29:34] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:30:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0353_shuppet/shuppet.png
+[03:31:20] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:32:42] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:35:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/snorunt/snorunt.png
+[03:40:50] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:50:06] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:50:52] [JM-task-4/INFO] [StatTimer] TopoRenderer.renderSurface hit max count, 1000000
+[03:51:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/blipbug/blipbug.png
+[03:53:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/tauros/tauros_aqua.png
+[03:54:09] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[03:55:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/ultranecrozma/ultranecrozma.png
+[03:57:29] [JM-task-4/INFO] [StatTimer] BiomeRenderer.renderSurface hit max count, 1000000
+[03:59:33] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[04:03:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/glameow/glameow.png
+[04:04:41] [IO-Worker-1430/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [64, -29]
+[04:05:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[04:06:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for artifacts:textures/entity_icon/mimic.png
+[04:06:14] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[04:14:52] [Render thread/ERROR] [RegionImageHandler] Could not get image from file: C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld\day\3,4.png: Could not load image: Corrupt PNG
+[04:15:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/hoppip/hoppip.png
+[04:16:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/gumshoos/gumshoos.png
+[04:17:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0919_nymble/nymble.png
+[04:17:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/ducklett/ducklett.png
+[04:20:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/drilbur/drilbur.png
+[04:22:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/dewpider/dewpider.png
+[04:22:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/skiddo/skiddo.png
+[04:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/glameow/glameow.png
+[04:24:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/pawmi/pawmi.png
+[04:24:12] [JM-task-4/ERROR] [BlockMD] Can't get blockId/meta for chunk 55,-37 at BlockPos{x=888, y=79, z=-586} : net.minecraft.ReportedException: Getting block state
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunk.m_8055_(LevelChunk.java:182)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.model.ChunkMD.getChunkBlockState(ChunkMD.java:129)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.model.BlockMD.getBlockMD(BlockMD.java:253)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.model.BlockMD.getBlockMDFromChunkLocal(BlockMD.java:234)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.render.CaveRenderer.getBlockHeight(CaveRenderer.java:497)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.render.BaseRenderer.populateSlopes(BaseRenderer.java:354)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.render.CaveRenderer.render(CaveRenderer.java:131)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:128)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: net.minecraft.world.level.chunk.MissingPaletteEntryException: Missing Palette entry for index 9.
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.HashMapPalette.m_5795_(HashMapPalette.java:64)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_63085_(PalettedContainer.java:146)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_63087_(PalettedContainer.java:141)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunkSection.m_62982_(LevelChunkSection.java:43)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunk.m_8055_(LevelChunk.java:171)
+	... 17 more
+
+[04:28:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for artifacts:textures/entity_icon/mimic.png
+[04:30:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[04:51:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/scovillain/scovillain.png
+[04:51:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/litleo/litleo.png
+[04:52:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/pyroar/pyroar_f.png
+[04:53:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/capsakid/capsakid.png
+[04:55:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/blipbug/blipbug.png
+[05:01:42] [Worker-Main-1868/WARN] [StatTimer] pluginClientEvent_jmi is already running, cancelling first
+[05:01:42] [Render thread/WARN] [StatTimer] pluginClientEvent_jmi is not running.
+[05:01:52] [Render thread/WARN] [StatTimer] pluginClientEvent_jmi is already running, cancelling first
+[05:01:52] [Worker-Main-1864/WARN] [StatTimer] pluginClientEvent_jmi is not running.
+[05:21:19] [Render thread/WARN] [JMLogger] minecraft:skins/19e00f90daecf60da3801dc1c88a9affcf6d7f6b doesn't have /entity/ in path, so can't look for /entity_icon/
+[05:22:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/yungoos/yungoos.png
+[05:26:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/skiploom/skiploom.png
+[06:16:45] [Render thread/INFO] [StatTimer] MiniMap1.Circle hit max count, 1000000
+[06:32:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0774_minior/minior.png
+[06:43:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/morpeko/morpeko.png
+[06:47:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0920_lokix/lokix.png
+[06:59:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/pikipek/pikipek.png
+[07:22:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/skitty/skitty.png
+[07:22:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/ancient_remnant/modern_remnant.png
+[07:25:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0919_nymble/nymble.png
+[07:27:58] [JM-task-4/INFO] [StatTimer] CaveRenderer.render hit max count, 1000000
+[07:29:58] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\minecraft:overworld
+[07:29:59] [Render thread/WARN] [ColorPalette] Existing color palette's resource packs no longer match current loadout.
+[07:29:59] [Render thread/INFO] [ColorPalette] WAS: Black Icons, Classic Icons, Cobblemon Interface Modded v1.7.0.zip, CobblemonIconsPure WithMobs v1.1.1.zip, Create Computers 1.2.1 - 1.20.1.zip, Create Legacy Copper, Default, High Contrast, Legacy Dead King, Lopy-Create-Sophisticated-Backpacks.zip, Mod Resources, Moonlight Mods Dynamic Assets, Pasture Block Fix, Programmer Art, Slightly-Improved-Font-1.1.5.zip, Steam 'n' Rails Green Signals, Steam 'n' Rails Legacy Palettes Textures, Steam 'n' Rails Legacy Semaphores, Town Talk, Whimscape x Cobblemon v1.5.zip, Whimscape_1.20-1.20.1_r3.zip, Whimscape_Leaves_1.20_r1.zip, White Icons, whimscape_unofficial_additions_1.0.7.zip
+NOW: Create Computers 1.2.1 - 1.20.1.zip, CreateSophisticatedBackpacks.zip, Default, High Contrast, Jigglyradio1.3.zip, Legacy Dead King, Maxi's-JM+CM_Pixel.zip, Mod Resources, Moonlight Mods Dynamic Assets, Pasture Block Fix, Programmer Art, Slightly-Improved-Font-1.1.5.zip, Town Talk, Whimscape x Cobblemon v1.6.1.zip, Whimscape_1.20-1.20.1_r6.zip, Whimscape_Leaves_1.20-1.20.1_r1.zip, whimscape_unofficial_additions_1.0.7.zip
+[07:30:00] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[07:30:00] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[07:31:50] [Netty Client IO #10/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[07:31:51] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official\waypoints
+[07:31:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official\overworld. Memory: 16032MB total, 8581MB free 
+[07:32:05] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official\minecraft:overworld
+[07:32:05] [Render thread/WARN] [ColorPalette] Existing color palette's resource packs no longer match current loadout.
+[07:32:05] [Render thread/INFO] [ColorPalette] WAS: Black Icons, Classic Icons, Cobblemon Interface Modded v1.7.0.zip, CobblemonIconsPure WithMobs v1.1.1.zip, Create Computers 1.2.1 - 1.20.1.zip, Create Legacy Copper, Default, High Contrast, Legacy Dead King, Lopy-Create-Sophisticated-Backpacks.zip, Mod Resources, Moonlight Mods Dynamic Assets, Pasture Block Fix, Programmer Art, Slightly-Improved-Font-1.1.5.zip, Steam 'n' Rails Green Signals, Steam 'n' Rails Legacy Palettes Textures, Steam 'n' Rails Legacy Semaphores, Town Talk, Whimscape x Cobblemon v1.5.zip, Whimscape_1.20-1.20.1_r3.zip, Whimscape_Leaves_1.20_r1.zip, White Icons, whimscape_unofficial_additions_1.0.7.zip
+NOW: Create Computers 1.2.1 - 1.20.1.zip, CreateSophisticatedBackpacks.zip, Default, High Contrast, Jigglyradio1.3.zip, Legacy Dead King, Maxi's-JM+CM_Pixel.zip, Mod Resources, Moonlight Mods Dynamic Assets, Pasture Block Fix, Programmer Art, Slightly-Improved-Font-1.1.5.zip, Town Talk, Whimscape x Cobblemon v1.6.1.zip, Whimscape_1.20-1.20.1_r6.zip, Whimscape_Leaves_1.20-1.20.1_r1.zip, whimscape_unofficial_additions_1.0.7.zip
+[07:32:05] [Render thread/INFO] [JourneymapClient] World UID is set to: eb4f97f6-dcd6-48c0-93a4-dc9a5c9657b8
+[07:32:06] [Render thread/INFO] [WaypointStore] Loaded 35 waypoints from C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\waypoints
+[07:32:06] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\overworld. Memory: 16032MB total, 6827MB free 
+[07:32:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/yungoos/yungoos.png
+[07:40:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/drilbur/drilbur.png
+[07:50:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/hoppip/hoppip.png
+[07:50:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/skiddo/skiddo.png
+[07:50:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/blipbug/blipbug.png
+[07:51:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/charjabug/charjabug.png
+[07:52:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0548_petilil/petilil_hisui_bias.png
+[07:52:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/dewpider/dewpider.png
+[07:53:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/litleo/litleo.png
+[07:57:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/swanna/swanna.png
+[08:01:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0774_minior/minior.png
+[08:03:23] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[08:03:50] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[08:06:57] [JM-task-89/ERROR] [BlockMD] Can't get blockId/meta for chunk 41,5 at BlockPos{x=664, y=70, z=88} : net.minecraft.ReportedException: Getting block state
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunk.m_8055_(LevelChunk.java:182)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.model.ChunkMD.getChunkBlockState(ChunkMD.java:129)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.model.BlockMD.getBlockMD(BlockMD.java:253)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.model.BlockMD.getBlockMDFromChunkLocal(BlockMD.java:234)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.render.CaveRenderer.buildStrata(CaveRenderer.java:316)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.render.CaveRenderer.renderUnderground(CaveRenderer.java:264)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.render.CaveRenderer.render(CaveRenderer.java:146)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:128)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424)
+	at TRANSFORMER/journeymap@5.10.3/journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: net.minecraft.world.level.chunk.MissingPaletteEntryException: Missing Palette entry for index 9.
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.HashMapPalette.m_5795_(HashMapPalette.java:64)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_63085_(PalettedContainer.java:146)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_63087_(PalettedContainer.java:141)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunkSection.m_62982_(LevelChunkSection.java:43)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunk.m_8055_(LevelChunk.java:171)
+	... 17 more
+
+[08:11:04] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Malec\curseforge\minecraft\Instances\Create Cardboard\journeymap\data\mp\Official_eb4f97f6~dcd6~48c0~93a4~dc9a5c9657b8\minecraft:overworld
+[08:11:04] [Render thread/WARN] [ColorPalette] Existing color palette's resource packs no longer match current loadout.
+[08:11:04] [Render thread/INFO] [ColorPalette] WAS: Black Icons, Classic Icons, Cobblemon Interface Modded v1.7.0.zip, CobblemonIconsPure WithMobs v1.1.1.zip, Create Computers 1.2.1 - 1.20.1.zip, Create Legacy Copper, Default, High Contrast, Legacy Dead King, Lopy-Create-Sophisticated-Backpacks.zip, Mod Resources, Moonlight Mods Dynamic Assets, Pasture Block Fix, Programmer Art, Slightly-Improved-Font-1.1.5.zip, Steam 'n' Rails Green Signals, Steam 'n' Rails Legacy Palettes Textures, Steam 'n' Rails Legacy Semaphores, Town Talk, Whimscape x Cobblemon v1.5.zip, Whimscape_1.20-1.20.1_r3.zip, Whimscape_Leaves_1.20_r1.zip, White Icons, whimscape_unofficial_additions_1.0.7.zip
+NOW: Create Computers 1.2.1 - 1.20.1.zip, CreateSophisticatedBackpacks.zip, Default, High Contrast, Jigglyradio1.3.zip, Legacy Dead King, Maxi's-JM+CM_Pixel.zip, Mod Resources, Moonlight Mods Dynamic Assets, Pasture Block Fix, Programmer Art, Slightly-Improved-Font-1.1.5.zip, Town Talk, Whimscape x Cobblemon v1.6.1.zip, Whimscape_1.20-1.20.1_r6.zip, Whimscape_Leaves_1.20-1.20.1_r1.zip, whimscape_unofficial_additions_1.0.7.zip
+[08:11:04] [JM-task-89/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@d42501d
+[08:11:05] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[08:11:05] [Render thread/INFO] [JourneymapClient] World UID is set to: null

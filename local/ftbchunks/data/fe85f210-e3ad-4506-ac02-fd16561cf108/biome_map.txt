@@ -1,0 +1,11 @@
+#572 terralith:arid_highlands
+#556 minecraft:beach
+#5E9 terralith:blooming_plateau
+#184 terralith:brushland
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#0E5 terralith:highlands
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5FF minecraft:river
+#579 minecraft:windswept_savanna

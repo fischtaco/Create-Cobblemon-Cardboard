@@ -1,0 +1,12 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#486 terralith:birch_taiga
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#78A terralith:gravel_beach
+#286 minecraft:grove
+#498 minecraft:lush_caves
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga

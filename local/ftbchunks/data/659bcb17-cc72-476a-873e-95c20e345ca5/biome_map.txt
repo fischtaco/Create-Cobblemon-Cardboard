@@ -1,0 +1,15 @@
+#187 terralith:ancient_sands
+#572 terralith:arid_highlands
+#6F6 minecraft:badlands
+#556 minecraft:beach
+#008 minecraft:desert
+#711 terralith:desert_canyon
+#614 minecraft:eroded_badlands
+#4E2 terralith:hot_shrubland
+#79A minecraft:lukewarm_ocean
+#5FF minecraft:river
+#45C terralith:sandstone_valley
+#67B minecraft:savanna
+#039 terralith:savanna_badlands
+#2B7 minecraft:warm_ocean
+#531 terralith:warm_river

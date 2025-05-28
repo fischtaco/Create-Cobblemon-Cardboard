@@ -1,0 +1,12 @@
+#6CE terralith:alpine_grove
+#705 minecraft:deep_frozen_ocean
+#6F8 terralith:emerald_peaks
+#292 minecraft:frozen_ocean
+#508 minecraft:frozen_peaks
+#286 minecraft:grove
+#498 minecraft:lush_caves
+#6E0 terralith:scarlet_mountains
+#553 terralith:siberian_taiga
+#524 minecraft:snowy_slopes
+#340 minecraft:snowy_taiga
+#55C terralith:wintry_forest
